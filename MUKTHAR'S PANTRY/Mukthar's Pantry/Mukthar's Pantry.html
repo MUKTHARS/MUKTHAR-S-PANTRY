@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="TE=edge">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <title>Mukthar's Pantry</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Mukthar's Pantry</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a> 
+                <a href="#products">Products</a>
+                <a href="#categories">Categories</a>
+                <a href="#review">Review</a>
+                <a href="#blogs">Blog</a>
+                
+                
+            </nav>  
+            <div class="icons">
+                <div class="fas fa-bars" id ="menu-btn"></div>
+                <div class="fas fa-search" id ="search-btn"></div>
+                <div class="fas fa-shopping-cart" id ="cart-button"></div>
+                <div class="fas fa-user" id ="log-btn"></div>
+            </div>  
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="search here..">
+                <label for ="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="C:\Users\MUKTHAR\Desktop\1.png"alt="">
+                    <div class="content">
+                        <h2>Tomato</h2>
+                        <span class="price">25.00</span>
+                        <span class="quantity">qty : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="C:\Users\MUKTHAR\Desktop\2.png"alt="">
+                    <div class="content">
+                        <h2>Watermelon</h2>
+                        <span class="price">25.00</span>
+                        <span class="quantity">qty : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="F:\project\image\3.webp"alt="">
+                    <div class="content">
+                        <h2>Chicken</h2>
+                        <span class="price">25.00</span>
+                        <span class="quantity">qty : 1</span>
+                    </div>
+                </div>
+                <div class="total_amount">Total : 75.00/-</div>
+                <a href="#" class="btn">Checkout</a>
+            </div>  
+            <form class="login-form">
+                <h2>Login Form</h2>
+                <input type="email" placeholder="E-mail" class="box">
+                <input type="password" placeholder="password" class="box">
+                <p>Forget Your Password <a href="#">Click Here</a></p>
+                <p>Create a New Account <a href="#">Sign Up</a></p>
+                <input type="Submit" value="login now" class="btn">
+
+            </form>
+        </header>
+        <section class="home" id="home">
+            <div class="content">
+                <h3> Fresh and <span>organic</span> products for your Family</h3>
+                <p>Get your groceries on your Door steps</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section> 
+        <section class="features" id="features">
+            <h1 class="heading"> our <span>Features</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="C:\Users\MUKTHAR\Desktop\10.png" alt="">
+                    <h3>Fresh And Organic</h3>
+                    <p>The fresh and rich Groceries to You</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="C:\Users\MUKTHAR\Desktop\8.webp" alt="">
+                <h3>Free Delivery</h3>
+                <p>Door Delivery To Door Step</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+            <img src="C:/Users/MUKTHAR/Desktop/9.webp" alt="">
+            <h3>Easy Payment</h3>
+            <p>Secured And Easy Payments</p>
+            <a href="#" class="btn">Read More</a>
+    </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products">
+            <h1 class="heading"> Our <span>Products</span></h1>
+            <div class="swiper product-slider">
+                <div class ="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src = "C:\Users\MUKTHAR\Desktop\7.png"alt="">
+                        <h3>Milk</h3>
+                        <div class="price">30.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "C:/Users/MUKTHAR/Desktop/2.png"alt="">
+                        <h3>Watermelon</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "C:/Users/MUKTHAR/Desktop/6.png"alt="">
+                        <h3>Orange</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\4.webp"alt="">
+                        <h3>Cabbage</h3>
+                        <div class="price">30.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\5.webp"alt="">
+                        <h3>Potato</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\6.webp"alt="">
+                        <h3>Avocado</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\7.webp"alt="">
+                        <h3>Carrot</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\8.webp"alt="">
+                        <h3>Banana</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper product-slider">
+                <div class ="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src = "C:/Users/MUKTHAR/Desktop/2.png"alt="">
+                        <h3>Watermelon</h3>
+                        <div class="price">30.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "C:/Users/MUKTHAR/Desktop/6.png"alt="">
+                        <h3>Orange</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "C:/Users/MUKTHAR/Desktop/1.png"alt="">
+                        <h3>Tomato</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\5.webp"alt="">
+                        <h3>Potato</h3>
+                        <div class="price">30.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\7.webp"alt="">
+                        <h3>Carrot</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\2.webp"alt="">
+                        <h3>Avocado</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\4.webp"alt="">
+                        <h3>Cabbage</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src = "F:\project\image\8.webp"alt="">
+                        <h3>Banana</h3>
+                        <div class="price">25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Categories -->
+        <section class="categories" id="categories">
+            <h1 class="heading">Product<span>Categories</span></h1>
+            <div class ="box-container">
+                <div class="box">
+                    <img src="C:/Users/MUKTHAR/Desktop/5.png" alt="">
+                    <h3>Vegetables</h3>
+                    <p>Upto 45% off</p>
+                    <a href="#" class = "btn">Shop Now</a>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/MUKTHAR/Desktop/6.png" alt="">
+                    <h3>Fruits</h3>
+                    <p>Upto 25% off</p>
+                    <a href="#" class = "btn">Shop Now</a>
+                </div>
+                <div class="box">
+                    <img src="F:\project\image\4.webp" alt="">
+                    <h3>Non-Veg</h3>
+                    <p>Upto 10% off</p>
+                    <a href="#" class = "btn">Shop Now</a>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/MUKTHAR/Desktop/7.png" alt="">
+                    <h3>Dairy</h3>
+                    <p>Upto 15% off</p>
+                    <a href="#" class = "btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review Section-->
+        <section class="review" id="review">
+            <h1 class="heading">Customer<span>Review</span></h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="F:\project\image\review 1.webp">
+                        <p> Fruits are really fresh and tasty</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="F:\project\image\review 2.webp">
+                        <p> Vegetabels are frueh and choosy</p>
+                        <h3>Thomas</h3>
+                        <div class="stars">
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            
+                            <i class ="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="F:\project\image\review 3.webp">
+                        <p> Milk products are so tasty</p>
+                        <h3>Eric </h3>
+                        <div class="stars">
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="F:\project\image\review 4.webp">
+                        <p> Non-veg are toooooo good</p>
+                        <h3>Jason</h3>
+                        <div class="stars">
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="F:\project\image\review 3.webp">
+                        <p> Vegetabels are frueh and choosy</p>
+                        <h3>Mathew</h3>
+                        <div class="stars">
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            <i class ="fas fa-star"></i>
+                            
+                            <i class ="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+        <!--Blog Section-->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">Our <span>Blog</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="F:\project\image\blog1.webp" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class ="fas fa-user"></i>By User</a>
+                            <a href="#"><i class ="fas fa-calender"></i>1st May, 2022</a>
+                        </div>
+                        <h3>Fresh And Organic Vegetables In Diet</h3>
+                        <p>Enrich the heath with rich vegetables</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="F:\project\image\blog2.webp" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class ="fas fa-user"></i>By User</a>
+                            <a href="#"><i class ="fas fa-calender"></i>1st May, 2022</a>
+                        </div>
+                        <h3>Healthy And Fresh Fruits to keep the body nutritive</h3>
+                        <p>Always cool our body with fruits</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="F:\project\image\blog3.webp" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class ="fas fa-user"></i>By User</a>
+                            <a href="#"><i class ="fas fa-calender"></i>1st May, 2022</a>
+                        </div>
+                        <h3>Alltime Smooth Dairy Products To Taste</h3>
+                        <p>taste the delicious chocolates and dairy products</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+</section>
+<!--Footer-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3><i class="fas fa-shopping-basket"></i> Mukthar's Pantry </h3>
+            <p>Fresh And Organic Products For Your Family</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>           
+            </div>
+        </div>
+        <div class="box">
+            <h3> Contact Info</i></h3>
+            <p>Contant us to stay for updates</p>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> xyz@gmail.com </a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> TamilNadu, India</a>
+        </div>
+        <div class="box">
+            <h3> Quick Links</i></h3>
+            <p>explore the Mukthar's Pantry to experience live store</p>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> Products </a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> Categories</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> Review</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> Blogs</a>
+        </div>
+        <div class="box">
+            <h3>NewsLetter</h3>
+            <p>Subscribe For Latest Updates</p>
+            <input type="email" placeholder="Your Email" class="email">
+            <input type="submit"value="Subscribe" class="btn">
+            <img src="C:\Users\MUKTHAR\Desktop\gro.webp" class="payment-img" alt="">
+        </div>
+        
+    </div>
+    
+
+</section>
+<div class="credit">Created by <span> MUKTHAR S</span> | all rights reserved </div>
+        
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="script.js"></script> 
+    </body>
+</html>
